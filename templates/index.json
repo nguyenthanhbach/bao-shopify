@@ -1,22 +1,22 @@
 {
-    "sections": {
-      "image_banner": {
-        "type": "bao-image-banner",
-        "settings": {
-          "desktop_content_position": "middle-center"
-        }
-      },
-      "bao_featured_products": {
-        "type": "bao-featured-collection",
-        "settings": {
-          "title": "Clearance Sales",
-          "collection": "all",
-          "image_ratio": "square"
-        }
+  "sections": {
+    "image_banner": {
+      "type": "bao-image-banner",
+      "settings": {
+        "desktop_content_position": "middle-center"
       }
     },
-    "order": [
-      "image_banner",
-      "bao_featured_products"
-    ]
-}  
+    "bao_featured_products": {
+      "type": "bao-featured-collection",
+      "settings": {
+        "title": "Clearance Sales",
+        "collection": "all",
+        "image_ratio": "square"
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "bao_featured_products"
+  ]
+}
