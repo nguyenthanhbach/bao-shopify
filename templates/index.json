@@ -1,7 +1,7 @@
 {
     "sections": {
       "image_banner": {
-        "type": "image-banner",
+        "type": "bao-image-banner",
         "settings": {
           "desktop_content_position": "middle-center"
         },
@@ -29,7 +29,7 @@
       "bao_featured_products": {
         "type": "bao-featured-collection",
         "settings": {
-          "title": "Clearance Saless",
+          "title": "Clearance Sales",
           "collection": "all",
           "image_ratio": "square"
         }
