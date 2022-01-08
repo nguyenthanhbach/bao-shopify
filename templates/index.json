@@ -1,42 +1,21 @@
 {
-    "sections": {
-      "image_banner": {
-        "type": "bao-image-banner",
-        "settings": {
-          "desktop_content_position": "middle-center"
-        },
-        "blocks": {
-          "heading": {
-            "type": "heading",
-            "settings": {
-              "heading": "Talk about your brand"
-            }
-          },
-          "button": {
-            "type": "buttons",
-            "settings": {
-              "button_label_1": "Shop all",
-              "button_link_1": "shopify://collections/all",
-              "button_label_2": ""
-            }
-          }
-        },
-        "block_order": [
-          "heading",
-          "button"
-        ]
-      },
-      "bao_featured_products": {
-        "type": "bao-featured-collection",
-        "settings": {
-          "title": "Clearance Sales",
-          "collection": "all",
-          "image_ratio": "square"
-        }
+  "sections": {
+    "image_banner": {
+      "type": "bao-image-banner",
+      "settings": {
       }
     },
-    "order": [
-      "image_banner",
-      "bao_featured_products"
-    ]
-}  
+    "bao_featured_products": {
+      "type": "bao-featured-collection",
+      "settings": {
+        "title": "Clearance Sales",
+        "collection": "all",
+        "image_ratio": "square"
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "bao_featured_products"
+  ]
+}
