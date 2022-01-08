@@ -29,7 +29,7 @@
       "bao_featured_products": {
         "type": "bao-featured-collection",
         "settings": {
-          "title": "Clearance Sales",
+          "title": "Clearance Saless",
           "collection": "all",
           "image_ratio": "square"
         }
